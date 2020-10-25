@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4747044a-cc17-49c3-9a78-97efd4e99549" name="Default Changelist" comment="" />
+    <list default="true" id="4747044a-cc17-49c3-9a78-97efd4e99549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +14,12 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,6 +134,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jIz4wdFyOx4EAvuux5d3JkBdrp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -154,6 +167,7 @@
       <updated>1603506206217</updated>
       <workItem from="1603506207453" duration="1713000" />
       <workItem from="1603594374079" duration="1751000" />
+      <workItem from="1603596748285" duration="3169000" />
     </task>
     <servers />
   </component>
@@ -165,5 +179,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="478" y="269" key="#Composer/0.0.1366.768@0.0.1366.768" timestamp="1603508917827" />
+    <state x="445" y="302" key="ComposerInitDialogKey" timestamp="1603597210834">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="445" y="302" key="ComposerInitDialogKey/0.0.1366.768@0.0.1366.768" timestamp="1603597210834" />
+    <state x="503" y="313" key="NewPhpFileDialog" timestamp="1603597912126">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="503" y="313" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1603597912126" />
   </component>
 </project>
