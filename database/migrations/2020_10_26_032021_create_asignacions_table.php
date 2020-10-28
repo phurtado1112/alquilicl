@@ -14,6 +14,8 @@ class CreateAsignacionsTable extends Migration
     public function up()
     {
         Schema::create('asignacions', function (Blueprint $table) {
+            $table->bigIncrements('id');
+
             $table->unsignedBigInteger('user_id')->unsigned();
             $table->unsignedBigInteger('cliente_id')->unsigned();
             $table->unsignedBigInteger('programa_id')->unsigned();

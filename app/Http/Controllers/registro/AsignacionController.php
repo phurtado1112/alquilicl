@@ -16,7 +16,7 @@ class AsignacionController extends Controller
     public function index()
     {
         $asignaciones = Asignacion::all();
-//        dd($asignaciones);
+        dd($asignaciones);
 
         return view('registro.asignacion.index', ['asignaciones' => $asignaciones]);
     }

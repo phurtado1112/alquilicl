@@ -10,7 +10,7 @@ class Cliente extends Model
 {
     use HasFactory;
 
-    public function asignacions() {
-        return $this->hasMany(Asignacion::class);
+    public function asignacion() {
+        return $this->hasMany(Asignacion::class, 'cliente_id', 'id');
     }
 }

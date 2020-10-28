@@ -14,9 +14,9 @@ class CreateProgramasTable extends Migration
     public function up()
     {
         Schema::create('programas', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('nombre_programa');
-            $table->string('versión_programa');
+            $table->string('version_programa');
             $table->dateTime('fecha_pago')->nullable();
             $table->integer('licencia_total');
             $table->integer('licencia_asignada');

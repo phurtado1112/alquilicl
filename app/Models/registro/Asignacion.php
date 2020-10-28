@@ -12,15 +12,15 @@ class Asignacion extends Model
 {
     use HasFactory;
 
-    public function clientes() {
-        return $this->belongsTo(Cliente::class);
+    public function cliente() {
+        return $this->belongsTo(Cliente::class, 'id', 'cliente_id');
     }
 
-    public function programas() {
-        return $this->belongsTo(Programa::class);
+    public function programa() {
+        return $this->belongsTo(Programa::class, 'id', 'programa_id');
     }
 
-    public function users() {
-        return $this->belongsTo(User::class);
+    public function user() {
+        return $this->belongsTo(User::class, 'id', 'user_id');
     }
 }

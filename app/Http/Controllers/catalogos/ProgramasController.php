@@ -5,27 +5,28 @@ namespace App\Http\Controllers\catalogos;
 use App\Http\Controllers\Controller;
 use App\Models\catalogo\Programa;
 use App\Http\Requests\ProgramaRequest;
+use Illuminate\Support\Facades\DB;
 
 class ProgramasController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function index()
     {
-        //
+        return view('catalogos.programas.index', ['programas' => DB::table('programas')->paginate(3)]);
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function create()
     {
-        //
+        return view('catalogos.programas.create');
     }
 
     /**
