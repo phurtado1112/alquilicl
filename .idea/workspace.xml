@@ -2,10 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4747044a-cc17-49c3-9a78-97efd4e99549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/catalogos/ClientesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/catalogos/ProgramasController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/registro/AsignacionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ClienteRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ProgramaRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/catalogo/Cliente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/catalogo/Programa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/registro/Asignacion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/Catalogo/ClienteFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/Catalogo/ProgramaFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/Registro/AsignacionFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_030334_create_clientes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_030502_create_programas_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_032021_create_asignacions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/catalogos/clientes/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/panel.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/plantillas/alquilic.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/plantillas/menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/registro/asignacion/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/alquilicl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alquilicl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +179,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jIz4wdFyOx4EAvuux5d3JkBdrp" />
@@ -142,14 +191,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models/catalogo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp74\htdocs\alquilicl\app\Http\Controllers\registro" />
+      <recent name="C:\xampp74\htdocs\alquilicl\app\Models\catalogo" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -167,25 +223,42 @@
       <updated>1603506206217</updated>
       <workItem from="1603506207453" duration="1713000" />
       <workItem from="1603594374079" duration="1751000" />
-      <workItem from="1603596748285" duration="3169000" />
+      <workItem from="1603596748285" duration="3530000" />
+      <workItem from="1603664064592" duration="13057000" />
+      <workItem from="1603765842746" duration="8813000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="478" y="269" key="#Composer" timestamp="1603508917827">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="478" y="269" key="#Composer/0.0.1366.768@0.0.1366.768" timestamp="1603508917827" />
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603768965286">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1603768965286" />
     <state x="445" y="302" key="ComposerInitDialogKey" timestamp="1603597210834">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="445" y="302" key="ComposerInitDialogKey/0.0.1366.768@0.0.1366.768" timestamp="1603597210834" />
-    <state x="503" y="313" key="NewPhpFileDialog" timestamp="1603597912126">
+    <state x="448" y="131" key="FileChooserDialogImpl" timestamp="1603669182237">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="503" y="313" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1603597912126" />
+    <state x="448" y="131" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603669182237" />
+    <state x="503" y="313" key="NewPhpFileDialog" timestamp="1603771523754">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="503" y="313" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1603771523754" />
+    <state x="390" y="117" width="585" height="534" key="find.popup" timestamp="1603772982199">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="390" y="117" width="585" height="534" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1603772982199" />
   </component>
 </project>
