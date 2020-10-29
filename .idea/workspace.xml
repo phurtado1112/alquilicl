@@ -20,26 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4747044a-cc17-49c3-9a78-97efd4e99549" name="Default Changelist" comment="Creación de migration, factories, Controllers y Modelos de Cliente, Programa, Asignación, así como la primera vista de listado de Cliente.">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PanelController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/catalogos/clientes/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/catalogos/clientes/delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/catalogos/clientes/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/catalogos/programas/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/catalogos/programas/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/AsignacionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/catalogos/ClientesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/catalogos/ClientesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/catalogos/ProgramasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/catalogos/ProgramasController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/registro/AsignacionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/registro/AsignacionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/catalogo/Cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/catalogo/Cliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/catalogo/Programa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/catalogo/Programa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/registro/Asignacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/registro/Asignacion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_030334_create_clientes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_030334_create_clientes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_030502_create_programas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_030502_create_programas_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_032021_create_asignacions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_032021_create_asignacions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ClienteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ClienteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/catalogos/clientes/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/catalogos/clientes/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/catalogos/clientes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/catalogos/clientes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/plantillas/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/plantillas/menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/catalogos/programas/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/catalogos/programas/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +208,8 @@
       <workItem from="1603596748285" duration="3530000" />
       <workItem from="1603664064592" duration="13057000" />
       <workItem from="1603765842746" duration="8813000" />
-      <workItem from="1603846556631" duration="11142000" />
+      <workItem from="1603846556631" duration="11517000" />
+      <workItem from="1603926558022" duration="5127000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de migration, factories, Controllers y Modelos de Cliente, Programa, Asignación, así como la primera vista de listado de Cliente.">
       <created>1603846999169</created>
@@ -229,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603846999169</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creación de migration, factories, Controllers y Modelos de Cliente, Programa, Asignación, así como la primera vista de listado de Cliente.">
+      <created>1603863176310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603863176310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +241,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -280,10 +277,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1603860401177" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1603847599187">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1603863224547">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1603847599187" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1603863224547" />
     <state x="390" y="117" width="585" height="534" key="find.popup" timestamp="1603772982199">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

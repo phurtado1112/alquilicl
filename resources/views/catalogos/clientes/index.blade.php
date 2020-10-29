@@ -28,14 +28,14 @@
                             <td>{{ $cliente->apellido }}</td>
                             <td>{{ $cliente->correo }}</td>
                             <td>{{ $cliente->empresa }}</td>
-                            <td><a href="{{ route('clientes.edit', $cliente) }}" class="btn btn-outline-primary">Editar</a></td>
-{{--                            <td>--}}
-{{--                                <form action="{{ route('clientes.destroy', $cliente) }}" method="post">--}}
-{{--                                    @csrf--}}
-{{--                                    @method('DELETE')--}}
-{{--                                    <input type="submit" class="btn btn-outline-danger" value="Eliminar" onclick="return confirm('¿Desea eliminar el cliente')">--}}
-{{--                                </form>--}}
-{{--                            </td>--}}
+                            <td><a href="{{ route('clientes.edit', $cliente->id) }}" class="btn btn-outline-primary">Editar</a></td>
+                            <td>
+                                <form action="{{ route('clientes.destroy', $cliente->id) }}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <input type="submit" class="btn btn-outline-danger" value="Eliminar" onclick="return confirm('¿Desea eliminar el cliente')">
+                                </form>
+                            </td>
                         </tr>
                     @endforeach
                     </tbody>

@@ -16,9 +16,6 @@ class ClientesController extends Controller
      */
     public function index()
     {
-//        $clientes = Cliente::all();
-//        dd($clientes);
-
         return view('catalogos.clientes.index', ['clientes' => DB::table('clientes')->paginate(5)]);
     }
 
@@ -36,11 +33,18 @@ class ClientesController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \App\Http\Requests\ClienteRequest  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response
      */
     public function store(ClienteRequest $request)
     {
-        //
+        //Salvar datos del cliente
+        $cliente = Cliente::create([
+            $request->all()
+        ]);
+
+        $cliente->save();
+
+        return back('status', 'Creado con éxito');
     }
 
     /**
